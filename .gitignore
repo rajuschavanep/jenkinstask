@@ -1,0 +1,29 @@
+/target/
+
+
+
+# Eclipse
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+.loadpath
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.sts4-cache
+
+# Java-specific
+*.class
+
+# Log files
+*.log
+
+# Mobile Tools for Java (MTJ)
+.mtj.tmp/
