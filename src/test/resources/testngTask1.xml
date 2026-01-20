@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="CalculatorTest" parallel="methods" thread-count="3" data-provider-thread-count="3"  >
+ 
+ 
+  <!--   groups>
+	   
+	    <run>
+	   		 <include name="smoke" />
+	   		 <include name="regression" />
+	   		  <exclude name="others" />
+	   </run>
+	   
+ </groups -->
+  <listeners>
+  		<listener class-name="testngtest.TestListener1" />
+  </listeners>
+  
+  <test name ="positive">
+  	
+   <classes>
+            <!--   class name="testngtask.task1.TestCalculatorPositive" / -->
+            <class name="testngtest.TestCalculatoNegative"/>
+   </classes>							
+   
+  </test>
+   
+</suite>
